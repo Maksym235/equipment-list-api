@@ -1,0 +1,421 @@
+[
+  {
+    "name": "намет",
+    "description": "",
+    "category": "база",
+    "persons": []
+  },
+  {
+    "name": "рейнкавер для намету",
+    "description": "",
+    "category": "база",
+    "persons": []
+  },
+  {
+    "name": "футпринт",
+    "description": "",
+
+    "category": "база",
+    "persons": []
+  },
+  {
+    "name": "палки для намету",
+    "description": "",
+
+    "category": "база",
+    "persons": []
+  },
+  {
+    "name": "спальник(собі і лері)",
+    "description": "",
+
+    "category": "база",
+    "persons": []
+  },
+  {
+    "name": "килимок",
+    "description": "",
+
+    "category": "база",
+    "persons": []
+  },
+  {
+    "name": "вогонь",
+    "description": "",
+
+    "category": "кухня",
+    "persons": []
+  },
+  {
+    "name": "мішок для сміття",
+    "description": "",
+
+    "category": "кухня",
+    "persons": []
+  },
+  {
+    "name": "ложка",
+    "description": "",
+
+    "category": "кухня",
+    "persons": []
+  },
+  {
+    "name": "чашка",
+    "description": "",
+
+    "category": "кухня",
+    "persons": []
+  },
+  {
+    "name": "ніж",
+    "description": "",
+
+    "category": "кухня",
+    "persons": []
+  },
+  {
+    "name": "пляшка води",
+    "description": "",
+
+    "category": "кухня",
+    "persons": []
+  },
+  {
+    "name": "джетбоїл",
+    "description": "",
+
+    "category": "кухня",
+    "persons": []
+  },
+  {
+    "name": "газовий балон",
+    "description": "",
+
+    "category": "кухня",
+    "persons": []
+  },
+  {
+    "name": "вода",
+    "description": "",
+
+    "category": "кухня",
+    "persons": []
+  },
+  {
+    "name": "Їдло",
+    "description": "",
+
+    "category": "кухня",
+    "persons": []
+  },
+  {
+    "name": "чай",
+    "description": "",
+
+    "category": "кухня",
+    "persons": []
+  },
+  {
+    "name": "сіль",
+    "description": "",
+
+    "category": "кухня",
+    "persons": []
+  },
+  {
+    "name": "батончики",
+    "description": "",
+
+    "category": "кухня",
+    "persons": []
+  },
+  {
+    "name": "хліб",
+    "description": "",
+
+    "category": "кухня",
+    "persons": []
+  },
+  {
+    "name": "рушник",
+    "description": "",
+
+    "category": "гігієна",
+    "persons": []
+  },
+  {
+    "name": "зубна паста",
+    "description": "",
+
+    "category": "гігієна",
+    "persons": []
+  },
+  {
+    "name": "зубна щітка",
+    "description": "",
+
+    "category": "гігієна",
+    "persons": []
+  },
+  {
+    "name": "ополаскувач",
+    "description": "",
+
+    "category": "гігієна",
+    "persons": []
+  },
+  {
+    "name": "захист від сонця",
+    "description": "",
+
+    "category": "гігієна",
+    "persons": []
+  },
+  {
+    "name": "лопатка",
+    "description": "",
+
+    "category": "гігієна",
+    "persons": []
+  },
+  {
+    "name": "туалетний папір",
+    "description": "",
+
+    "category": "гігієна",
+    "persons": []
+  },
+  {
+    "name": "міні-ножниці",
+    "description": "",
+
+    "category": "гігієна",
+    "persons": []
+  },
+  {
+    "name": "пінцет",
+    "description": "",
+
+    "category": "гігієна",
+    "persons": []
+  },
+  {
+    "name": "рюкзак",
+    "description": "",
+
+    "category": "спорядження",
+    "persons": []
+  },
+  {
+    "name": "рейнкавер для рюкзаку",
+    "description": "",
+
+    "category": "спорядження",
+    "persons": []
+  },
+  {
+    "name": "ліхтарик",
+    "description": "",
+
+    "category": "спорядження",
+    "persons": []
+  },
+  {
+    "name": "павербанки",
+    "description": "",
+
+    "category": "спорядження",
+    "persons": []
+  },
+  {
+    "name": "гермомішок",
+    "description": "",
+
+    "category": "спорядження",
+    "persons": []
+  },
+  {
+    "name": "осмАпс",
+    "description": "",
+
+    "category": "навігація",
+    "persons": []
+  },
+  {
+    "name": "завантажити карти",
+    "description": "",
+
+    "category": "навігація",
+    "persons": []
+  },
+  {
+    "name": "телефон",
+    "description": "",
+
+    "category": "електроніка",
+    "persons": []
+  },
+  {
+    "name": "шнури для зарядки",
+    "description": "",
+
+    "category": "електроніка",
+    "persons": []
+  },
+  {
+    "name": "зіп-пакети",
+    "description": "",
+
+    "category": "електроніка",
+    "persons": []
+  },
+  {
+    "name": "фотоапарат",
+    "description": "",
+
+    "category": "електроніка",
+    "persons": []
+  },
+  {
+    "name": "паспорт",
+    "description": "",
+
+    "category": "документи і гроші",
+    "persons": []
+  },
+  {
+    "name": "готівка",
+    "description": "",
+
+    "category": "документи і гроші",
+    "persons": []
+  },
+  {
+    "name": "спідня білизна",
+    "description": "",
+
+    "category": "одяг",
+    "persons": []
+  },
+  {
+    "name": "шкарпетки",
+    "description": "",
+
+    "category": "одяг",
+    "persons": []
+  },
+  {
+    "name": "футболки",
+    "description": "",
+
+    "category": "одяг",
+    "persons": []
+  },
+  {
+    "name": "штани-трансформери",
+    "description": "",
+
+    "category": "одяг",
+    "persons": []
+  },
+  {
+    "name": "шорти",
+    "description": "",
+
+    "category": "одяг",
+    "persons": []
+  },
+  {
+    "name": "флісова кофта",
+    "description": "",
+
+    "category": "одяг",
+    "persons": []
+  },
+  {
+    "name": "ветровка",
+    "description": "",
+
+    "category": "одяг",
+    "persons": []
+  },
+  {
+    "name": "кепка-панама",
+    "description": "",
+    "category": "одяг",
+    "persons": []
+  },
+  {
+    "name": "дощовики",
+    "description": "",
+    "category": "одяг",
+    "persons": []
+  },
+  {
+    "name": "спрей від комарів",
+    "description": "",
+    "category": "аптечка",
+    "persons": []
+  },
+  {
+    "name": "пластирі",
+    "description": "",
+    "category": "аптечка",
+    "persons": []
+  },
+  {
+    "name": "активоване вугілля",
+    "description": "",
+    "category": "аптечка",
+    "persons": []
+  },
+  {
+    "name": "парацетамол",
+    "description": "",
+    "category": "аптечка",
+    "persons": []
+  },
+  {
+    "name": "знеболююче",
+    "description": "",
+    "category": "аптечка",
+    "persons": []
+  },
+  {
+    "name": "еластичний бінт",
+    "description": "",
+    "category": "аптечка",
+    "persons": []
+  },
+  {
+    "name": "мазь при вивертах",
+    "description": "",
+    "category": "аптечка",
+    "persons": []
+  },
+  {
+    "name": "турнікет",
+    "description": "",
+    "category": "аптечка",
+    "persons": []
+  },
+  {
+    "name": "звичайний пакет",
+    "description": "",
+    "category": "інше",
+    "persons": []
+  },
+  {
+    "name": "карабіни",
+    "description": "",
+    "category": "інше",
+    "persons": []
+  },
+  {
+    "name": "стрепи для фіксації",
+    "description": "",
+    "category": "інше",
+    "persons": []
+  }
+]
