@@ -1,0 +1,36 @@
+{
+  "name": "equipment-list-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maksym235/equipment-list-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maksym235/equipment-list-api/issues"
+  },
+  "homepage": "https://github.com/Maksym235/equipment-list-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "4.17.1",
+    "joi": "^17.9.2",
+    "mongoose": "^7.1.1",
+    "morgan": "1.10.0",
+    "nanoid": "^3.1.12"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "nodemon": "2.0.15"
+  }
+}
