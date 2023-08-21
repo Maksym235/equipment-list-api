@@ -4,10 +4,10 @@ const cors = require("cors");
 require("dotenv").config();
 const mongoose = require("mongoose");
 const { DB_HOST } = process.env;
-const personsRouter = require("./routes/persons");
-const equipRouter = require("./routes/equip");
-const usersRouter = require("./routes/auth");
-const toursRouter = require("./routes/tours");
+const personsRouter = require("../routes/persons");
+const equipRouter = require("../routes/equip");
+const usersRouter = require("../routes/auth");
+const toursRouter = require("../routes/tours");
 const app = express();
 
 const formatsLogger = app.get("env") === "development" ? "dev" : "short";
@@ -28,8 +28,6 @@ app.use((err, req, res, next) => {
   res.status(500).json({ message: err.message });
 });
 
-
-
 mongoose.set("strictQuery", true);
 
 mongoose
@@ -42,6 +40,5 @@ mongoose
     console.log(err.message);
     process.exit(1);
   });
-
 
 module.exports = app;
