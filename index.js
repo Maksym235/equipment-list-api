@@ -2,8 +2,6 @@ const express = require("express");
 const logger = require("morgan");
 const cors = require("cors");
 require("dotenv").config();
-const mongoose = require("mongoose");
-const { DB_HOST } = process.env;
 const personsRouter = require("./routes/persons");
 const equipRouter = require("./routes/equip");
 const usersRouter = require("./routes/auth");
