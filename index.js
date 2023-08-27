@@ -10,6 +10,19 @@ const usersRouter = require("./routes/auth");
 const toursRouter = require("./routes/tours");
 const app = express();
 
+mongoose.set("strictQuery", true);
+
+mongoose
+  .connect(DB_HOST)
+  .then(() => {
+    console.log("Database connection successful");
+    app.listen(3000, console.log("Server running. Use our API on port: 3000"));
+  })
+  .catch((err) => {
+    console.log(err.message);
+    process.exit(1);
+  });
+
 const formatsLogger = app.get("env") === "development" ? "dev" : "short";
 
 app.use(logger(formatsLogger));
@@ -27,18 +40,5 @@ app.use((req, res) => {
 app.use((err, req, res, next) => {
   res.status(500).json({ message: err.message });
 });
-
-mongoose.set("strictQuery", true);
-
-mongoose
-  .connect(DB_HOST)
-  .then(() => {
-    console.log("Database connection successful");
-    app.listen(3000, console.log("Server running. Use our API on port: 3000"));
-  })
-  .catch((err) => {
-    console.log(err.message);
-    process.exit(1);
-  });
 
 module.exports = app;
