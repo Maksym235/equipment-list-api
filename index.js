@@ -13,14 +13,13 @@ const toursRouter = require("./routes/tours");
 const app = express();
 mongoose.set("strictQuery", true);
 
-app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-
 const formatsLogger = app.get("env") === "development" ? "dev" : "short";
 
 app.use(logger(formatsLogger));
 app.use(cors());
 app.use(express.json());
 
+app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.use("/persons", personsRouter);
 app.use("/equip", equipRouter);
 app.use("/auth", usersRouter);
