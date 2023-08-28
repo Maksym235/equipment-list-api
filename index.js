@@ -9,7 +9,6 @@ const equipRouter = require("./routes/equip");
 const usersRouter = require("./routes/auth");
 const toursRouter = require("./routes/tours");
 const app = express();
-
 mongoose.set("strictQuery", true);
 
 const server = http.createServer(app);
@@ -32,16 +31,4 @@ app.use((err, req, res, next) => {
   res.status(500).json({ message: err.message });
 });
 
-mongoose
-  .connect(DB_HOST)
-  .then(() => {
-    console.log("Database connection successful");
-    server.listen(
-      3000,
-      console.log("Server running. Use our API on port: 3000")
-    );
-  })
-  .catch((err) => {
-    console.log(err.message);
-    process.exit(1);
-  });
+module.exports = app;
