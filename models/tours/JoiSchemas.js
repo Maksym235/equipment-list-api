@@ -10,7 +10,7 @@ const addTourSchema = Joi.object({
 });
 
 const addUserstoTourSchema = Joi.object({
-  id: Joi.string().required(),
+  usersId: Joi.string().required(),
 });
 
 const Schema = {

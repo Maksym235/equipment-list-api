@@ -8,6 +8,7 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 const personsRouter = require("./routes/persons");
 const equipRouter = require("./routes/equip");
+const equipsListRouter = require("./routes/equipsList");
 const usersRouter = require("./routes/auth");
 const toursRouter = require("./routes/tours");
 const app = express();
@@ -22,6 +23,7 @@ app.use(express.json());
 app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.use("/persons", personsRouter);
 app.use("/equip", equipRouter);
+app.use("/equipsList", equipsListRouter);
 app.use("/auth", usersRouter);
 app.use("/tours", toursRouter);
 app.use((req, res) => {

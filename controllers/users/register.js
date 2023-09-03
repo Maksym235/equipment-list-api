@@ -17,7 +17,11 @@ const register = async (req, res) => {
   res.json({
     code: 201,
     message: "registered successfully",
-    resp,
+    user: {
+      name: resp.name,
+      email: resp.email,
+      id: resp._id,
+    },
   });
 };
 
